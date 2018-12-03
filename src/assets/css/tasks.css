@@ -1,0 +1,247 @@
+body {
+    background: rgb(248, 248, 248);
+    overflow: hidden;
+}
+
+.categories-header {
+    padding-bottom: 0px;
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+
+.default {
+    padding-bottom: 10px;
+    border-bottom: 0px;
+}
+
+.color-picker:hover {
+    cursor: pointer;
+}
+
+.colors-element {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.categories-workspace {
+    width: 100%;
+    text-align: left;
+}
+.categories-list {
+    margin-top: 10px;
+}
+.categories-list-element {
+    clear: both;
+    width: 100%;
+}
+
+.categories-toggle {
+    display: inline-block;
+}
+
+.categories-form {
+    margin-top: 5px;
+}
+
+.form-group {
+    padding-bottom: 0px !important;
+}
+
+.categories-form .form-control {
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    float: left;
+}
+
+.categories-form .form-text {
+    clear: both;
+}
+
+.user-categories {
+    margin-top: 15px;
+}
+
+.picker {
+    width: 185px;
+    background: rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 3px;
+    position: absolute;
+    z-index: 999;
+}
+
+.color-picker-wrapper {
+    float: left;
+    margin-top: 3px;
+}
+.color-picker {
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    border: 1px dotted grey;
+    margin-left: 5px;
+}
+
+.categories-header span {
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+.categories-ico {
+    width: 10px;
+    height: 10px;
+}
+
+.categories-ico:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.tasks-view {
+    background: #fff;
+    width: 58%;
+    border-radius: 2px;
+    padding: 20px;
+    float: left;
+    margin: 0 auto;
+
+    border: 1px solid rgb(228, 228, 228);
+    border-left: 1px solid rgb(201, 201, 201);
+    border-top: 0px;
+
+    height: auto;
+}
+
+.workspace {
+    text-align: left;
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+.tasks-view p {
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.left-wrapper {
+    width: 450px;
+    background: rgb(248, 248, 248);
+    border-right: 1px solid rgb(212, 212, 212);
+    border-bottom: 1px solid rgb(212, 212, 212);
+    border-radius: 3px;
+
+    min-height: 1200px;
+
+    float: left;
+}
+.side-bar {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    width: 52%;
+    margin-top: 20px;
+    min-height: 1200px;
+}
+
+.category-color {
+    height: 10px;
+    width: 10px;
+    float: left;
+    margin-top: 4.5px;
+    border-radius: 3px;
+}
+
+.default-category-name {
+    cursor: pointer;
+}
+.category-name {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.toggle-ico {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+.welcome-header {
+    margin-left: 0px;
+    left: 0px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.user {
+    margin-left: 15px;
+}
+
+.locality, .folder {
+    padding-right: 8px;
+    float: left;
+    margin-top: 3px;
+}
+
+.user-ico {
+    opacity: 0.8;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.toggle {
+    position: absolute;
+    top: 23px;
+    left: -15px;
+}
+
+.footer {
+    visibility: hidden;
+}
+
+.fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+
+  @media only screen and (max-width: 1140px) {
+    .toggle {
+        visibility: visible;
+    }
+    .tasks-view {
+        position: absolute;
+        width: 99%;
+        left: 0.5%;
+    }
+    
+    .left-wrapper {
+        position: absolute;
+        width: 350px;
+        z-index: 9999 !important;
+    }
+
+    .categories-workspace {
+        width: 90%;
+    }
+
+    .side-bar {
+        margin: 0;
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .workspace {
+        width: 100%;
+    }
+
+}

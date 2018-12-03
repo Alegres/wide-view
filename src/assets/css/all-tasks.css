@@ -1,0 +1,103 @@
+.task:hover {
+    cursor: pointer !important;
+    background: rgb(216, 216, 216);
+}
+
+.task {
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+}
+
+tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+.no-indent {
+    text-indent: 0;
+}
+
+.no-matches {
+    background: none !important;
+    background-color: none !important;
+}
+
+tr:nth-child(odd) {
+    background: #fafafa;
+}
+
+.remove-filters {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.remove-ico {
+    height: 12px;
+    width: 12px;
+}
+
+.table {
+    margin-top: 25px;
+}
+
+.flask-filters {
+    margin-top: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
+
+.filter-element {
+    cursor: pointer;
+}
+
+.filter-options {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.filters {
+    position: relative;
+}
+
+input {
+    text-indent: 25px;
+}
+
+.flask-icon {
+    cursor: pointer;
+}
+
+.category-list, .category-element {
+    clear: both !important;
+    margin-left: 3px !important;
+    padding-bottom: 5px;
+}
+.category-element:hover {
+    cursor: pointer;
+}
+
+.category-list {
+    height: 100px !important;
+    width: 300px !important;
+    padding: 0px !important;
+    padding-top: 5px !important;
+    border-radius: 3px !important;
+    overflow: auto !important;
+}
+
+.category-name {
+    display: inline-block !important;
+}
+
+.category-color {
+    display: inline-block !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.clear-category {
+    font-weight: bold;
+    float: right;
+}

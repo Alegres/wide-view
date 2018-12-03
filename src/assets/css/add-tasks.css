@@ -1,0 +1,117 @@
+body {
+    
+}
+.form-group, .form-control {
+    font-family: 'Ubuntu', sans-serif !important;
+    margin-left: 0 !important;
+    text-align: left;
+}
+.required-fields, .optional-fields {
+    font-size: 16px !important;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+.check {
+}
+
+.repeat, .all-day {
+    margin-top: 20px !important;
+}
+
+.time-picker {
+    margin-top: 15px;
+}
+
+.category-list, .category-element {
+    clear: both !important;
+    margin-left: 3px !important;
+    padding-bottom: 5px;
+}
+.category-element:hover {
+    cursor: pointer;
+}
+
+.submit-form {
+    width: 100%;
+}
+
+.category-list {
+    height: 100px !important;
+    width: 300px !important;
+    padding: 0px !important;
+    padding-top: 5px !important;
+    border-radius: 3px !important;
+    overflow: auto !important;
+}
+
+.number-picker {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.form-number {
+    margin-left: 5px;
+    width: 55px;
+    text-align: center;
+    padding-right: 0px;
+    
+}
+
+.period-picker {
+    display: inline-block;
+}
+
+.period-picker .form-control {
+    width: 150px;
+}
+
+.until {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.until-picker {
+    width: 200px;
+    display: inline-block;
+}
+
+.big-selector {
+    height: 200px;
+}
+
+.day-option {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.priority-list {
+    margin-top: 15px;
+    border: 1px solid rgb(235, 235, 235);
+    border-radius: 3px;
+    padding: 3px;
+    width: 80px;
+    background: rgb(231, 230, 230);
+}
+
+.category-search .form-control {
+    height: 30px !important;
+    font-size: 14px !important;
+}
+
+.category-name {
+    display: inline-block !important;
+}
+
+.form-check {
+    margin-left: 23px;
+    padding-right: 23px;
+}
+
+.category-color {
+    display: inline-block !important;
+    width: 10px !important;
+    height: 10px !important;
+}

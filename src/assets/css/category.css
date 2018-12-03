@@ -1,0 +1,107 @@
+
+
+.no-tasks {
+    clear: both;
+}
+
+.confirm {
+    margin: 0 auto; 
+    text-align: center;
+}
+
+.confirm .btn {
+    margin-left: 10px;
+}
+
+.modal-header-custom {
+    text-align: center !important;
+    margin: 0 auto;
+    padding-bottom: 0px;
+}
+
+.modal-body {
+    padding: 0 !important;
+    margin: 0 auto !important;
+}
+
+.category-title {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.remove-category, .edit-category {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+.remove-category:hover, .edit-category:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.task:hover {
+    cursor: pointer !important;
+    background: rgb(216, 216, 216);
+}
+
+.task {
+    border-bottom: 1px solid #d4d4d4;
+    border-top: 1px solid #d4d4d4;
+}
+
+tr:nth-child(even) {
+    background: #eeeeee;
+}
+
+tr:nth-child(odd) {
+    background: #fafafa;
+}
+
+.remove-filters {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.remove-ico {
+    height: 12px;
+    width: 12px;
+}
+
+.table {
+    margin-top: 25px;
+}
+
+.flask-filters {
+    margin-top: 5px;
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 4px;
+}
+
+.filter-element {
+    cursor: pointer;
+}
+
+.filter-options {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.filters {
+    position: relative;
+}
+
+input {
+    text-indent: 25px;
+}
+
+.no-matches {
+    background: none !important;
+    background-color: none !important;
+}
+
+.flask-icon {
+    cursor: pointer;
+}

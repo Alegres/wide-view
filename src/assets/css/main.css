@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.jumbotron {
+    margin-top: -27px !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.main {
+    font-family: 'Ubuntu', sans-serif;
+    width: 86%;
+    margin: 0 auto;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .main {
+        text-align: center !important;
+    }
+    .container h1 {
+        font-size: 36px;
+    }
+    
+}
+
+p {
+    font-size: 15px !important;
+    font-family: 'Ubuntu', sans-serif;
+}
+.btn-primary {
+    font-size: 16px;
+}
+.btn-secondary {
+    font-size: 14px;
+}
+
+h2 {
+    color: #222;
+    margin-left: -2px !important;
+    padding-left: 1px !important;
+    font-size: 20px;
+}
+.jumbotron {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+.posts {
+    text-align: left;
+}

@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body {
+    font-size: 14px;
+
+}
+.brand {
+    font-size: 28px;
+    color: #fff !important;
+    float: left;
+    width: 100px;
+}
+.menu-links {
+    float: left;
+    margin-top: 9px;
+}
+#main-menu {
+    background: #6B60A7 !important;
+    /* 262872 */
+    padding-bottom: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    border-bottom: 1px solid rgb(117, 117, 117);
+}
+
+.menu-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dropdown-item, .nav-item {
+    font-size: 15px;
+    text-align: left;
+}
+
+.toggle-main-nav {
+    float: right !important;
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 765px) {
+    .menu-links {
+        clear: both;
+        margin-left: 5%;
+    }
+    
+}
+
+.dropdown-item:hover {
+    background: 0 !important;
+    color: rgb(192, 192, 192) !important;
+}
+.dropdown-item {
+    background: 0 !important;
+}
+
+.nav-item a {
+    color: rgb(211, 211, 211) !important;
+}
+
+.nav-item a:hover {
+    color: #333 !important;
+    border-radius: 10px;
+}
+
+.dropdown-items a {
+    color: #000 !important;
+}
+
+.actions {
+}
+
+#copyrights {
+    margin: 0 auto;
+}
+
+hr {
+    padding-top: 0;
+    margin-top: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    border: 0;
+}
+
+.dropdown {
+}
+
+.search {
+    padding-top: 10px;
+}
+
+.dropdown-item {
+    font-size: 14px;
+}
+
+a:hover {
+}
+.btn-primary {
+    color: white !important;
+    background: #6E98DD;
+    border: 1px solid #6D7ABA;
+}
+.btn-primary:hover {
+    background: #6B60A7;
+    border-color: rgb(102, 113, 168);
+}
+.btn-primary:active {
+    background-color: #2E265B !important;
+    border: 1px solid #6B60A7 !important;
+}
+
+.btn-secondary {
+    color: white !important;
+}
+
+.footer {
+    
+}

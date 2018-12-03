@@ -1,0 +1,152 @@
+.recurring {
+    margin-top: 20px;
+    clear: both;
+}
+
+.clock-ico, .recurring-ico, .trash-ico {
+    cursor: pointer;
+    display: inline-block;
+    margin-left: 10px;
+}
+h3 {
+    margin-left: -1px;
+}
+
+.action-icos {
+    display: inline-block;
+}
+
+.subtask-header {
+    display: inline-block;
+    clear: both;
+}
+
+.sub-nav-btn {
+    float: right;
+}
+
+.recurring-ico {
+}
+
+.textarea {
+    min-height: 80px;
+    max-height: 200px;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.checks {
+    margin-left: 20px;
+}
+
+.time-picker {
+    padding-bottom: 15px;
+}
+
+.modal-header-custom {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+
+
+.form-check {
+    padding-right: 23px;
+}
+.form-check-input {
+    margin-left: 3px;
+    padding-right: 32px;
+}
+.day-option {
+    margin-top: 5px;
+    cursor: pointer;
+}
+.number-picker {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.form-number {
+    margin-left: 5px;
+    width: 55px;
+    text-align: center;
+    padding-right: 0px;
+    
+}
+
+.period-picker {
+    display: inline-block;
+}
+
+.period-picker .form-control {
+    width: 150px;
+}
+
+.edit-subtask-main {
+    clear: both;
+}
+
+.description {
+    clear: both;
+    margin-top: 5px !important;
+}
+
+.submit-form {
+    margin: 0 auto !important;
+    width: 100%;
+    margin-top: 10px !important;
+}
+
+.until {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.until-picker {
+    width: 200px;
+    display: inline-block;
+}
+
+.big-selector {
+    height: 200px;
+}
+.required-fields, .optional-fields {
+    font-size: 16px !important;
+}
+
+.text-muted {
+    font-size: 14px;
+}
+
+.materials-list, .subtasks-list {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.repeat, .all-day {
+    margin-top: 20px !important;
+}
+
+.errors {
+    margin-top: 10px;
+}
+
+.recurring-wrapper {
+    margin: 0 auto;
+}
+
+.time-picker {
+    margin-top: 15px;
+}
+
+.modal-container {
+    width: 500px !important;
+    background: black !important;
+}
+
+.button {
+    margin-top: 10px;
+}
